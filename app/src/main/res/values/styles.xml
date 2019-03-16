@@ -1,0 +1,41 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+  <style name="Numberstyle" parent="AppTheme">
+    <item name="android:textSize">120sp</item>
+    <item name="android:textColor">@color/numberColor</item>
+
+  </style>
+
+  <style name="TallyStyle" parent="AppTheme">
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="ActiveCorrectStyle" parent="TallyStyle">
+    <item name="android:textColor">#00C000</item>
+  </style>
+
+  <style name="PassiveCorrectStyle" parent="TallyStyle">
+    <item name="android:textColor">#808080</item>
+  </style>
+
+  <style name="IncorrectStyle" parent="TallyStyle">
+    <item name="android:textColor">#FF0000</item>
+  </style>
+
+</resources>

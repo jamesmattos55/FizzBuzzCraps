@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">FizzBuzzCraps</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Android Studio</string>
+  <string name="nav_header_subtitle">android.studio@android.com</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="action_settings">Settings</string>
+  <string name="craps_simulator">Craps Simulator</string>
+  <string name="fizz_buzz">Fizz Buzz</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  <string name="fizz_toggle_on">Fizz!</string>
+  <string name="buzz_toggle_on">Buzz!</string>
+  <string name="fizz_toggle_off">Fizz</string>
+  <string name="buzz_toggle_off">Buzz</string>
+  <string name="active_correct">Correct = %d</string>
+  <string name="passive_correct">Lazy = %d</string>
+  <string name="incorrect">Incorrect = %d</string>
+</resources>
