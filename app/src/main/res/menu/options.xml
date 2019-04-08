@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/play_one"
+    android:title="@string/play_one"
+    android:icon="@drawable/play_one"
+    app:showAsAction="always" />
+
+  <item
+    android:id="@+id/play_fast"
+    android:title="@string/play_fast"
+    android:icon="@drawable/play_fast"
+    app:showAsAction="always" />
+
+  <item
+    android:id="@+id/pause"
+    android:title="@string/pause"
+    android:icon="@drawable/pause"
+    app:showAsAction="always" />
+
+  <item
+    android:id="@+id/reset"
+    android:title="@string/reset"
+    android:icon="@drawable/reset"
+    app:showAsAction="never" />
+
+
+
+</menu>

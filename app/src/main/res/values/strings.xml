@@ -19,4 +19,13 @@
   <string name="active_correct">Correct = %d</string>
   <string name="passive_correct">Lazy = %d</string>
   <string name="incorrect">Incorrect = %d</string>
+
+    <string name="play_one">Play One</string>
+    <string name="play_fast">Run</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="sum">= %2d</string>
+  <string name="tally">%1$,d wins / %2$,d plays = %3$.2f%%</string>
+
+
 </resources>

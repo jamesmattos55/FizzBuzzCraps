@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity
     implements NavigationView.OnNavigationItemSelectedListener {
 
   private Fragment fizzBuzzFragment;
+  private Fragment crapsSimulatorFragment;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,10 @@ public class MainActivity extends AppCompatActivity
     getSupportFragmentManager().beginTransaction()
         .add(R.id.fragment_container, fizzBuzzFragment, fizzBuzzFragment.getClass().getSimpleName())
         .commit();
-    //TODO CReate craps Fragment. start transaction to add it to same fragment container. start in hidden state.
+    crapsSimulatorFragment = new CrapsSimulatorFragment();
+    getSupportFragmentManager().beginTransaction()
+        .add(R.id.fragment_container, crapsSimulatorFragment, fizzBuzzFragment.getClass().getSimpleName())
+        .commit();
   }
 
   @Override

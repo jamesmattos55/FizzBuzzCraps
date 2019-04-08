@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <data>
+    <import type="edu.cnm.deepdive.fizzbuzzcraps.CrapsSimulatorFragment"/>
+    <variable
+      name="rolls"
+      type="int[]"/>
+    <variable
+      name="state"
+      type="edu.cnm.deepdive.fizzbuzzcraps.CrapsSimulatorFragment"/>
+    <variable
+      name="faces"
+      type="int[]"/>
+
+  </data>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:gravity="center"
+    android:background="@{state == State.WIN ? @color/winColor : @color/lossColor}">
+
+
+
+    <ImageView
+      android:id="@+id/die_0"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      style="@style/DiceImage"
+      android:src="@{faces[rolls[0]-1]}"
+      />
+
+    <ImageView
+      android:id="@+id/die_1"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      style="@style/DiceImage"
+      android:src="@{faces[rolls[0]-1]}"
+      />
+
+    <TextView
+      android:id="@+id/sum"
+      android:layout_height="wrap_content"
+      android:text="@{@string/sum(rolls[0] + rolls[1])}"
+      style="@style/DiceSum"/>
+
+
+  </LinearLayout>
+</layout>
